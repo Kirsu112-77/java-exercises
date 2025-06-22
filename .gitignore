@@ -1,0 +1,16 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Environment-dependent path to Maven home directory
+/mavenHomeManager.xml
+.idea/
+*.class
+*.jar
+*.war
+*.ear
+*.ctxt
+*.iml
+*.bluej
+
+.gradle/
+build/
