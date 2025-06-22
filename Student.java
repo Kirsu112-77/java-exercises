@@ -11,15 +11,19 @@ private String id;
 public String name;
 private int grade;
 private String dob;
-public Student(String id,String name){
+public Student(String id,String name)
+{
     this.id = id;
     this.name=name;
-}  
-public void changeGrade(int gradeGivenByUser){
+}
+
+public void changeGrade(int gradeGivenByUser)
+{
     this.grade = gradeGivenByUser;
 }
-public String getgrade(){
-    int grade = this.grade;
+public String getgrade()
+{
+     int grade = this.grade;
      if (this.grade<0) {
          return"Invalid Marks";
 
@@ -29,11 +33,9 @@ public String getgrade(){
              return"A+";
          }
          else{
-             return"Filed";
+             return"Failed";
          }
      }
-     
-
 
 }
 }
