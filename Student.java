@@ -10,6 +10,7 @@ public class Student
 private String id;
 public String name;
 private int grade;
+private String dob;
 public Student(String id,String name){
     this.id = id;
     this.name=name;
